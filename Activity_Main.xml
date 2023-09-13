@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/Login_Form"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="LOGIN FORM"
+        android:textColor="@color/purple_500"
+        android:textSize="35dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login_Form"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="262dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Username"
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,TextContrastCheck,TextFields,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextUsername"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:ignore="Autofill,HardcodedText,TextContrastCheck,TextFields,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="161dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="162dp"
+        android:gravity="center"
+        android:text="Login" />
+
+
+
+
+</RelativeLayout>
